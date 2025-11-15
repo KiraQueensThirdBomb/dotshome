@@ -1,3 +1,5 @@
+@import "colors.css";
+
 * {
   border:        none;
   border-radius: 0;
@@ -7,12 +9,12 @@
   /* text-shadow:   0px 1.5px 3px #202020; */
   box-shadow:    none;
   transition-duration: 0s;
-  color: #ffffff; /*default text color*/
+  color: @on_background; /*default text color*/
 	margin: 0 5px; /*default margin between blocks*/
 }
 
 window {
-  background: #000000;
+  background: @background;
   /* background: rgba(0, 0, 0, 0.1); */
 	/*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));*/
 }
@@ -45,7 +47,7 @@ window {
   color: #ea6962;
 }
 #waybar{
-  border-bottom: 1px solid #ffffff /*zamienić na rodzaj czerwonego*/
+  border-bottom: 1px solid @outline_variant /*zamienić na rodzaj czerwonego*/
 }
 
 #mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #language {
@@ -78,5 +80,9 @@ background-color: black;
 #backlight-slider highlight {
 min-width: 10px;
 border-radius: 5px;
-background-color: red;
+background-color: @background;
+}
+#tooltip{
+  background: @background;
+  color: @on_background
 }
