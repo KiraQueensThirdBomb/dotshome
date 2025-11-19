@@ -20,12 +20,14 @@ window {
 }
 
 #workspaces {
-  margin: 0 0px;
+  margin: 0px 0px 0px 20px;
 }
 
 #workspaces button {
-  padding: 0 0px;
+  padding: 0px 0px;
 	/* color: #f4f4f4; */
+  background-color: @tetriaty;
+  border-radius: 5px;
 }
 
 #workspaces button label{
@@ -39,8 +41,14 @@ window {
 }
 
 #workspaces button.active label{
-	color: #ffffff;
+	color: @surface_dim; 
 	font-weight:   800;
+}
+
+#workspaces button.active {
+  padding: 0 0px;
+	/* color: #f4f4f4; */
+  background-color: @on_error;
 }
 
 #workspaces button.urgent {
