@@ -7,3 +7,4 @@ Pobrać:
 -swww
 -ProFont-nerd font
 -DepartureMono-nerd font
+-rofi
