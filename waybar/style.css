@@ -3,9 +3,9 @@
 * {
   border:        none;
   border-radius: 0;
-  font-family:   "Adwaita Sans", "Inter Variable", BlinkMacSystemFont, sans-serif;
-  font-weight:   600;
-  font-size:     12px;
+  font-family:   "ProFont Nerd Font","DepartureMono Nerd Font","Adwaita Sans", "Inter Variable", BlinkMacSystemFont, sans-serif;
+  font-weight:   700;
+  font-size:     1rem;
   /* text-shadow:   0px 1.5px 3px #202020; */
   box-shadow:    none;
   transition-duration: 0s;
@@ -20,7 +20,8 @@ window {
 }
 
 #workspaces {
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 5px;
+  border-left: solid 3px @outline_variant;
 }
 
 #workspaces button {
@@ -66,31 +67,49 @@ window {
 
 #clock {
   /* min-width:  140px; */
+  border: solid 3px @on_error;
+  background-color: @on_error;
+  border-radius: 100px;
+  padding: 0px 5px;
 }
 
 #tray menu * {
   color: #000000;
 }
+#backlight-slider{
+  background-color: @background;
+  padding: 1px;
+  border-bottom: 1px solid @outline_variant;
+}
 #backlight-slider slider {
 min-height: 0px;
 min-width: 0px;
 opacity: 0;
-background-image: none;
+background-color: @background;
 border: none;
 box-shadow: none;
+color: red;
 }
 #backlight-slider trough {
 min-height: 10px;
 min-width: 80px;
-border-radius: 5px;
-background-color: black;
+border-radius: 10px;
+background-color: @background;
 }
 #backlight-slider highlight {
-min-width: 10px;
 border-radius: 5px;
-background-color: @background;
+background-color: @on_error;
+border: solid 5px @on_error;
 }
 #tooltip{
   background: @background;
   color: @on_background
+}
+menu {
+    border-radius: 15px;
+    background: @background;
+    color: #B5E8E0;
+}
+menuitem {
+    border-radius: 15px;
 }
