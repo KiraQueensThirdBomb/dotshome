@@ -7,8 +7,9 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
+        "custom/power",
         "hyprland/workspaces",
-        "custom/music"
+        "custom/music",
     ],
     "modules-center": [
         "clock",
@@ -19,7 +20,7 @@
         "cpu",
         "memory",
         "backlight",
-        "backlight-slider"
+        "backlight/slider"
     ],
     "idle_inhibitor": {
         "format": "{icon}",
@@ -34,9 +35,8 @@
     },
     "clock": {
          "timezone": "Europe/Warsaw",
-        "format": "{:%H:%M    %d-%m-%y}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%d-%m-%y}"
+        "format": "{:%H:%M  %d-%m-%y}",
+        "format-alt": "{:%H:%M}"
     },
     "cpu": {
         "format": "  {usage}%",
@@ -54,7 +54,7 @@
         "format-icons": ["", "", "!"]
     },
     "backlight": {
-        // "device": "acpi_video1",
+        "device": "acpi_video1",
         "format": "{icon}  {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
@@ -97,7 +97,7 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon}  {volume}%  {format_source}",
+        "format": "{icon}  {volume}%",
         "format-bluetooth": "󰂰 {volume}%  {format_source}",
         "format-bluetooth-muted": "󰂲  {format_source}",
         "format-muted": "  {format_source}",
@@ -150,6 +150,19 @@
     "min": 0,
     "max": 100,
     "orientation": "horizontal",
-    "device": "intel_backlight"
+    "device": "acpi_video1",
+},
+
+"custom/power": {
+    "format" : " ",
+        "tooltip": false,
+        "menu": "on-click",
+        "menu-file": "~/.config/waybar/power_menu.xml",
+        "menu-actions": {
+            "shutdown": "shutdown",
+            "reboot": "reboot",
+            "suspend": "systemctl suspend",
+            "hibernate": "systemctl hibernate",
+        },
 }
 }
