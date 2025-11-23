@@ -5,3 +5,5 @@ Pobrać:
 -dolphin
 -matugen
 -swww
+-ProFont-nerd font
+-DepartureMono-nerd font
