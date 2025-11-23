@@ -1,11 +1,9 @@
 1.Paleta kolorów
 2.Rice:
 -hyprland
--wofi (in progress)
+-rofi (in progress)
 -kitty
 -dolphin
--matugen (zaktualizować)
 -CLI (obrazy do terminala)[wybrać]
 -(opcjonalne) edytować color scheme NVIM 
--(opcjonalne) użyć polybar
 -GTK themes
