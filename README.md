@@ -20,7 +20,10 @@ run the config
 </details>
 <hr><br>
 <h2>TO set up:</h2>
--rofi theme <br>
+-SYNCH kitty with github <br>
+-rofi theme (in progress) <br>
 -GTK themes <br>
 -nvim theme <br>
--kitty/fetch script <br>
+-fetch script <br>
+-CLI scripts <br>
+-app themes [not mandatory] <br>
