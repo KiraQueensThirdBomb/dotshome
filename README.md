@@ -20,6 +20,7 @@ run the config
 </details>
 <hr><br>
 <h2>TO set up:</h2>
+-fix matugen config <br>
 -rofi theme (in progress) <br>
 -GTK themes <br>
 -nvim theme <br>
