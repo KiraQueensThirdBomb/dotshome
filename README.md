@@ -20,9 +20,17 @@ run the config
 </details>
 <hr><br>
 <h2>TO set up:</h2>
--rofi theme (in progress) <br>
 -GTK themes <br>
 -nvim theme <br>
--fetch script <br>
 -CLI scripts <br>
 -app themes [not mandatory] <br>
+
+<hr><br>
+<div align="center">
+  <h2>Used tools:</h2>
+</div>
+-hyprland <br>
+-waybar <br>
+-kitty <br>
+-matugen <br>
+-rofi <br>

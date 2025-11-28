@@ -9,21 +9,30 @@ makepkg -si
 echo aur setup finished
 cd ~
 echo installing reqired stuff
-sudo pacman -Syu #updating system to make shure everythings up to date
 sudo pacman -S "${apps_pacman[@]}"
 yay -S "${apps_aur[@]}"
 git clone https://github.com/LGFae/swww.git #swww install
 cargo build --release
 git clone https://github.com/LazyVim/starter ~/.config/nvim #lazyvim install
 rm -rf ~/.config/nvim/.git
+git clone https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DepartureMono.zip #fonts install
+git clone https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ProFont.zip
+unzip ~/Downloads/DepartureMono.zip
+unzip ~/Downloads/ProFont.zip
+sudo cp -r ~/Downloads/DepartureMono/ /usr/share/fonts/
+sudo cp -r ~/Downloads/ProFont/ /usr/share/fonts/
 echo reqirement instalantion should be finished
-echo starting file configuration
+echo starting file configuration #cp files to /.config
 rm -rf /.config/hypr/
 cp -r ~/dotshome/hypr ~/.config/
 rm -rf /.config/waybar/
 cp -r ~/dotshome/waybar ~/.config/
 rm -rf /.config/matugen/
 cp -r ~/dotshome/matugen ~/.config/
+rm -rf /.config/kitty/
+cp -r ~/dotshome/kitty ~/.config/
+rm -rf /.config/rofi/
+cp -r ~/dotshome/rofi ~/.config/
 cp -r ~/dotshome/Wallpapers ~/Pictures/
-matugen image Pictures/Wallpapers/wall1.jpg
+matugen image Pictures/Wallpapers/wall1.jpg #set wallpaper and generate colors
 echo file configuration should be finished in case of something not working fix it yourself
