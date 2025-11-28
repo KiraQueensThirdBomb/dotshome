@@ -20,8 +20,17 @@ run the config
 </details>
 <hr><br>
 <h2>TO set up:</h2>
--synch matugen and rofi config <br>
 -GTK themes <br>
 -nvim theme <br>
 -CLI scripts <br>
 -app themes [not mandatory] <br>
+
+<hr><br>
+<div align="center">
+  <h2>Used tools:</h2>
+</div>
+-hyprland <br>
+-waybar <br>
+-kitty <br>
+-matugen <br>
+-rofi <br>
