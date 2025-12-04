@@ -20,10 +20,10 @@ run the config
 </details>
 <hr><br>
 <h2>TO set up:</h2>
--GTK themes <br>
+-GTK themes synch <br>
 -nvim theme <br>
 -CLI scripts <br>
--app themes [not mandatory] <br>
+-yazi add to github <br>
 
 <hr><br>
 <div align="center">
@@ -34,3 +34,4 @@ run the config
 -kitty <br>
 -matugen <br>
 -rofi <br>
+-yazi <br>
