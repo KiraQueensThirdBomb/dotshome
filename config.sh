@@ -36,6 +36,9 @@ rm -rf ~/.config/rofi/
 cp -r ~/dotshome/rofi ~/.config/
 rm -rf ~/.config/yazi/
 cp -r ~/dotshome/yazi/ ~/.config/
+sudo cp -r ~/dotshome/darkblud/ /usr/share/themes/ #cp the gtk theme to the themes directory
+gsettings set org.gnome.desktop.interface gtk-theme "darkblud" #apply the "darkblud gtk theme"
 cp -r ~/dotshome/Wallpapers ~/Pictures/
 matugen image Pictures/Wallpapers/wall1.jpg #set wallpaper and generate colors
 echo file configuration should be finished in case of something not working fix it yourself
+echo thinker, play around, and try to fix the problem by experimenting, that's the best way to do it
