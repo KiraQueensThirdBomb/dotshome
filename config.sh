@@ -1,5 +1,5 @@
 #!/bin/bash
-apps_pacman=("hyprland" "waybar" "kitty" "dolphin" "wofi" "rofi" "neovim")
+apps_pacman=("hyprland" "waybar" "kitty" "dolphin" "wofi" "rofi" "neovim" "yazi")
 apps_aur=("matugen-bin" "nerd-fonts")
 echo start installing aur
 sudo pacman -S --needed base-devel git #aur install
@@ -11,6 +11,7 @@ cd ~
 echo installing reqired stuff
 sudo pacman -S "${apps_pacman[@]}"
 yay -S "${apps_aur[@]}"
+sudo pacman -S ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick #yazi dependencies
 git clone https://github.com/LGFae/swww.git #swww install
 cargo build --release
 git clone https://github.com/LazyVim/starter ~/.config/nvim #lazyvim install
@@ -23,16 +24,18 @@ sudo cp -r ~/Downloads/DepartureMono/ /usr/share/fonts/
 sudo cp -r ~/Downloads/ProFont/ /usr/share/fonts/
 echo reqirement instalantion should be finished
 echo starting file configuration #cp files to /.config
-rm -rf /.config/hypr/
+rm -rf ~/.config/hypr/
 cp -r ~/dotshome/hypr ~/.config/
-rm -rf /.config/waybar/
+rm -rf ~/.config/waybar/
 cp -r ~/dotshome/waybar ~/.config/
-rm -rf /.config/matugen/
+rm -rf ~/.config/matugen/
 cp -r ~/dotshome/matugen ~/.config/
-rm -rf /.config/kitty/
+rm -rf ~/.config/kitty/
 cp -r ~/dotshome/kitty ~/.config/
-rm -rf /.config/rofi/
+rm -rf ~/.config/rofi/
 cp -r ~/dotshome/rofi ~/.config/
+rm -rf ~/.config/yazi/
+cp -r ~/dotshome/yazi/ ~/.config/
 cp -r ~/dotshome/Wallpapers ~/Pictures/
 matugen image Pictures/Wallpapers/wall1.jpg #set wallpaper and generate colors
 echo file configuration should be finished in case of something not working fix it yourself
