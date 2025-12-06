@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Instalacja</h1>
+  <h1>Install</h1>
 </div>
 <details><summary>Click to expand</summary>
 
@@ -20,7 +20,7 @@ run the config
 </details>
 <hr><br>
 <h2>TO set up:</h2>
--GTK themes synch <br>
+-spotify theme <br>
 -nvim theme <br>
 -CLI scripts <br>
 
