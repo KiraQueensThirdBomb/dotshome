@@ -23,7 +23,6 @@ run the config
 -GTK themes synch <br>
 -nvim theme <br>
 -CLI scripts <br>
--yazi add to github <br>
 
 <hr><br>
 <div align="center">
