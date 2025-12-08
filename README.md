@@ -11,9 +11,9 @@ There's NO widgets (i did't play around with them yet)<br>
 I have up on ricing neovim with lazyvim config,<br>
 Gtk themes are half working at best (done only up to ver 3.2),<br>
 I don't bundle in spotify setup since it's so stupidly simple with spicetify,<br>
-So these dotfiles are at 2/3 maybe 3/4 complete, and i wanted to complete them intill the new year(2026) ( ꩜ ᯅ ꩜;)<br>
+So these dots are at 2/3 maybe 3/4 complete, and i wanted to complete them till the new year(2026) ( ꩜ᯅ꩜;)<br>
 man i'm so fricked<br>
-also i have no idea if this works my machine is so weak it can't run a vm propertly to test if this works<br></p>
+also i have no idea if this works or not, my machine is so weak it can't run a vm properly to test if this works<br></p>
 
 <div align="center">
   <h1>Install</h1>
