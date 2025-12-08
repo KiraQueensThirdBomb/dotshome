@@ -3,7 +3,7 @@
 * {
   border:        none;
   border-radius: 0;
-  font-family:   "ProFont Nerd Font","DepartureMono Nerd Font","Adwaita Sans", "Inter Variable", BlinkMacSystemFont, sans-serif;
+  font-family:  "DepartureMono Nerd Font","Adwaita Sans", "Inter Variable", BlinkMacSystemFont, sans-serif;
   font-weight:   700;
   font-size:     1rem;
   /* text-shadow:   0px 1.5px 3px #202020; */
@@ -20,8 +20,7 @@ window {
 }
 
 #workspaces {
-  margin: 0px 0px 0px 5px;
-  border-left: solid 3px @outline_variant;
+  margin: 0px 10px 0px 10px;
 }
 
 #workspaces button {
@@ -56,7 +55,7 @@ window {
   color: #ea6962;
 }
 #waybar{
-  border-bottom: 1px solid @outline_variant /*zamienić na rodzaj czerwonego*/
+  border-bottom: 1px solid @outline_variant; /*zamienić na rodzaj czerwonego*/
 }
 
 #mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #language {
@@ -71,6 +70,7 @@ window {
   background-color: @on_error;
   border-radius: 100px;
   padding: 0px 5px;
+  margin-bottom: 1px;
 }
 
 #tray menu * {
@@ -80,6 +80,8 @@ window {
   background-color: @background;
   padding: 1px;
   border-bottom: 1px solid @outline_variant;
+  margin-right: 0px;
+  border-left: 0px 
 }
 #backlight-slider slider {
 min-height: 0px;
