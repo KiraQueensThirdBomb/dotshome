@@ -8,9 +8,9 @@
 </div>
 <p align="center">Im still a noob so
 There's NO widgets (i did't play around with them yet)<br>
-I have up on ricing neovim with lazyvim config,<br>
-Gtk themes are half working at best (done only up to ver 3.2),<br>
-I don't bundle in spotify setup since it's so stupidly simple with spicetify,<br>
+I have gave up on ricing neovim with lazyvim config<br>
+Gtk themes are half working at best (done only up to ver 3.2)<br>
+I don't bundle in spotify setup since it's so stupidly simple with spicetify<br>
 So these dots are at 2/3 maybe 3/4 complete, and i wanted to complete them till the new year(2026) ( ꩜ᯅ꩜;)<br>
 man i'm so fricked<br>
 also i have no idea if this works or not, my machine is so weak it can't run a vm properly to test if this works<br></p>
@@ -35,9 +35,9 @@ run the config
 ```
 
 <h2>TO set up:</h2>
--CLI scripts <br>
 -widgets (maybe steal some😈) <br>
 -complete gtk<br>
+-split hyprland config into multiple files<br>
 
 <div align="center">
   <h2>Used tools:</h2>
@@ -48,3 +48,4 @@ run the config
 -matugen <br>
 -rofi <br>
 -yazi <br>
+-cava and cbonsai <br>
