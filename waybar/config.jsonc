@@ -143,6 +143,8 @@
     "tooltip": false,
     "exec": "playerctl metadata --format='{{ title }} - {{ artist }}'",
     "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl next",
+    "on-click-middle": "playerctl previous",
     "max-length": 35
   },
 
