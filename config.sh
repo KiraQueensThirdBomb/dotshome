@@ -1,5 +1,5 @@
 #!/bin/bash
-apps_pacman=("hyprland" "waybar" "kitty" "dolphin" "wofi" "rofi" "neovim" "yazi" "cava")
+apps_pacman=("hyprland" "waybar" "kitty" "dolphin" "wofi" "rofi" "neovim" "yazi" "cava" "hyprlock")
 apps_aur=("matugen-bin" "nerd-fonts" "cbonsai-git")
 echo start installing aur
 sudo pacman -S --needed base-devel git #aur install
