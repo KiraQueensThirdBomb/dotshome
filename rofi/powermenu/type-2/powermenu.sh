@@ -23,6 +23,7 @@ shutdown=' '
 reboot=' '
 lock=' '
 suspend=' '
+logout=' '
 yes=' '
 no=' '
 
@@ -54,7 +55,7 @@ confirm_exit() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-  echo -e "$lock\n$suspend\n$reboot\n$shutdown" | rofi_cmd
+  echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
 }
 
 # Execute Command
@@ -78,6 +79,8 @@ run_cmd() {
         i3-msg exit
       elif [[ "$DESKTOP_SESSION" == 'plasma' ]]; then
         qdbus org.kde.ksmserver /KSMServer logout 0 0 0
+      elif [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
+        hyprctl dispatch exit 1
       fi
     fi
   else
@@ -105,6 +108,6 @@ $suspend)
   run_cmd --suspend
   ;;
 $logout)
-  run_cmd hyprctl dispatch exit 1
+  run_cmd --logout
   ;;
 esac
