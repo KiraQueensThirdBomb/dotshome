@@ -37,7 +37,7 @@ run the config
 
 <h2>TO set up:</h2>
 -widgets (maybe steal some😈) <br>
--lock screen and login screen (i forgor, oppsie :3 )<br>
+-login screen (i forgor, oppsie :3 )<br>
 
 <div align="center">
   <h2>Used tools:</h2>
