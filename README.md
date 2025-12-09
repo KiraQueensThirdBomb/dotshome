@@ -17,6 +17,7 @@ also i have no idea if this works or not, my machine is so weak it can't run a v
 
 <div align="center">
   <h1>Install</h1>
+<h3>watch out when innsatlling since IT WILL DELETE all your configs for your apps (including neovim)</h3>
 </div>
 
 clone this page with git
@@ -49,3 +50,4 @@ run the config
 -yazi <br>
 -cava and cbonsai (terminal stuff) <br>
 -themix (it also does gtk4) <br>
+-hyprlock <br>
