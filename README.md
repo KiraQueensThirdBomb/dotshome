@@ -37,7 +37,6 @@ run the config
 <h2>TO set up:</h2>
 -widgets (maybe steal some😈) <br>
 -complete gtk<br>
--split hyprland config into multiple files<br>
 
 <div align="center">
   <h2>Used tools:</h2>
@@ -48,4 +47,4 @@ run the config
 -matugen <br>
 -rofi <br>
 -yazi <br>
--cava and cbonsai <br>
+-cava and cbonsai (terminal stuff) <br>
