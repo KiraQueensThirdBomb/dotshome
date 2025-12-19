@@ -6,8 +6,7 @@
   ⠀ じしˍ,)ノ<br>
   </h1>
 </div>
-<p align="center">Im still a noob so
-Gtk themes SHOULD be working<br>
+<p align="center">Im still a noob so don't expect much<br>
 I don't bundle in spotify setup since it's so stupidly simple to set up with spicetify<br>
 also i have no idea if this works or not, my machine is so weak it can't run a vm properly to test if this works<br></p>
 
