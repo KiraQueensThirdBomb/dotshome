@@ -33,6 +33,7 @@ run the config
 <h2>TO set up:</h2>
 -widgets (maybe steal some😈) <br>
 -login screen (i forgor, oppsie :3 )<br>
+-make the install script better (unbloat)<br>
 
 <div align="center">
   <h2>Used tools:</h2>
