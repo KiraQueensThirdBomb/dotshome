@@ -40,5 +40,8 @@ sudo cp -r ~/dotshome/darkblud/ /usr/share/themes/ #cp the gtk theme to the them
 gsettings set org.gnome.desktop.interface gtk-theme "darkblud" #apply the "darkblud gtk theme"
 cp -r ~/dotshome/Wallpapers ~/Pictures/
 matugen image Pictures/Wallpapers/wall1.jpg #set wallpaper and generate colors
+chmod +x ~/.config/rofi/launchers/type2/launcher.sh
+chmod +x ~/.config/rofi/powermenu/type2/powermenu.sh
+chmod +x ~/.config/waybar/scripts/reload.sh
 echo file configuration should be finished in case of something not working fix it yourself
 echo thinker, play around, and try to fix the problem by experimenting, that's the best way to do it
