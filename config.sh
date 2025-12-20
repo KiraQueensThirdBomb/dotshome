@@ -1,6 +1,6 @@
 #!/bin/bash
 apps_pacman=("hyprland" "waybar" "kitty" "dolphin" "wofi" "rofi" "neovim" "yazi" "cava" "hyprlock")
-apps_aur=("matugen-bin" "nerd-fonts" "cbonsai-git")
+apps_aur=("matugen-bin" "nerd-fonts" "cbonsai-git" "swww")
 echo start installing aur
 sudo pacman -S --needed base-devel git #aur install
 git clone https://aur.archlinux.org/yay.git
@@ -12,8 +12,6 @@ echo installing reqired stuff
 sudo pacman -S "${apps_pacman[@]}"
 yay -S "${apps_aur[@]}"
 sudo pacman -S ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick #yazi dependencies
-git clone https://github.com/LGFae/swww.git #swww install
-cargo build --release
 git clone https://github.com/LazyVim/starter ~/.config/nvim #lazyvim install
 rm -rf ~/.config/nvim/.git
 git clone https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DepartureMono.zip #fonts install
