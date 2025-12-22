@@ -29,7 +29,12 @@ run the config
 ```shell
 ~/dotshome/config.sh
 ```
-
+stuff that the script for some reasons didn't do
+```shell
+chmod +x ~/.config/rofi/launchers/type2/launcher.sh
+chmod +x ~/.config/rofi/powermenu/type2/powermenu.sh
+chmod +x ~/.config/waybar/scripts/reload.sh
+```
 <h2>TO set up:</h2>
 -widgets (maybe steal some😈) <br>
 -login screen (i forgor, oppsie :3 )<br>
