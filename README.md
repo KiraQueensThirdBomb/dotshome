@@ -35,6 +35,13 @@ chmod +x ~/.config/rofi/launchers/type2/launcher.sh
 chmod +x ~/.config/rofi/powermenu/type2/powermenu.sh
 chmod +x ~/.config/waybar/scripts/reload.sh
 ```
+after finishing you have to reboot into hyprland and use this command to create the color schemes with the wallpapers
+```shell
+matugen image ~/Wallpapers/wall1.jpg
+```
+and with that you should be set and ready to go
+
+
 <h2>TO set up:</h2>
 -widgets (maybe steal some😈) <br>
 -login screen (i forgor, oppsie :3 )<br>
