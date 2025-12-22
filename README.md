@@ -39,8 +39,8 @@ after finishing you have to reboot into hyprland and use this command to create 
 ```shell
 matugen image ~/Wallpapers/wall1.jpg
 ```
-and with that you should be set and ready to go
-
+and with that you should be set and ready to go<br>
+also please note that thease dots come with departuremono nerd font 3.4.0<br>
 
 <h2>TO set up:</h2>
 -widgets (maybe steal some😈) <br>
