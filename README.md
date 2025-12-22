@@ -56,6 +56,6 @@ also please note that thease dots come with departuremono nerd font 3.4.0<br>
 -matugen <br>
 -rofi <br>
 -yazi <br>
--cava and cbonsai (terminal stuff) <br>
+-cava (terminal stuff(im NEVER deleting cava from the config file)) <br>
 -themix (it also does gtk4) <br>
 -hyprlock <br>
