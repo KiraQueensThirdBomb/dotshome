@@ -7,8 +7,6 @@
   </h1>
 </div>
 <p align="center">Im still a noob so don't expect much<br>
-I don't bundle in spotify setup since it's so stupidly simple to set up with spicetify<br>
-also i have no idea if this works or not, my machine is so weak it can't run a vm properly to test if this works<br></p>
 
 <div align="center">
   <h1>Install</h1>
@@ -35,7 +33,7 @@ chmod +x ~/.config/rofi/launchers/type-2/launcher.sh
 chmod +x ~/.config/rofi/powermenu/type-2/powermenu.sh
 chmod +x ~/.config/waybar/scripts/reload.sh
 ```
-after finishing you have to reboot into hyprland and use this command to create the color schemes with the wallpapers
+after finishing you can to reboot into hyprland and use this command to create the color schemes with the wallpapers
 ```shell
 matugen image ~/Wallpapers/wall1.jpg
 ```
@@ -45,7 +43,6 @@ also please note that thease dots come with departuremono nerd font 3.4.0<br>
 <h2>TO set up:</h2>
 -widgets (maybe steal some😈) <br>
 -login screen (i forgor, oppsie :3 )<br>
--make the install script better (unbloat)<br>
 
 <div align="center">
   <h2>Used tools:</h2>
