@@ -32,6 +32,7 @@ stuff that the script for some reasons didn't do
 chmod +x ~/.config/rofi/launchers/type-2/launcher.sh
 chmod +x ~/.config/rofi/powermenu/type-2/powermenu.sh
 chmod +x ~/.config/waybar/scripts/reload.sh
+chmod +x ~/.config/hypr/Scripts/songdetail.sh
 ```
 after finishing you can to reboot into hyprland and use this command to create the color schemes with the wallpapers
 ```shell
