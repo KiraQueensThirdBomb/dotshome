@@ -1,6 +1,6 @@
 #!/bin/bash
 apps_pacman=("hyprland" "waybar" "kitty" "dolphin" "wofi" "rofi" "neovim" "yazi" "cava" "hyprlock")
-apps_aur=("matugen-bin" "nerd-fonts" "swww")
+apps_aur=("matugen-bin" "nerd-fonts" "awww")
 echo start installing aur
 sudo pacman -S --needed base-devel git #aur install
 git clone https://aur.archlinux.org/yay.git
