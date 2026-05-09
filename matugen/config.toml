@@ -2,13 +2,11 @@
 # Whether to set the wallpaper or not
 set = true
 
-# The base command to run for applying the wallpaper, shouldn't have spaces in it.
-command = "swww"
 
 # The arguments that will be provided to the command.
 # Keywords like {{ mode }} or anything that works inside of hooks doesn't work here.
 # The last argument will be the image path.
-arguments = ["img", "--transition-type", "center"]
+command = "awww img --transition-type center {{ image }}"
 
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/hyprland-colors.conf'
